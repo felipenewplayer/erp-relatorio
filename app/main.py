@@ -14,7 +14,7 @@ from openpyxl import Workbook
 
 app = FastAPI()
 
-origins = ["http://localhost:5173"]
+origins = ["http://localhost:5173","https://front-mini-erp.vercel.app"]
 
 app.add_middleware(
     CORSMiddleware,
